@@ -9,7 +9,8 @@ object Macro {
     import c.universe._
     q"""{
       val ret = 0
-      ret
+      println(ret)
+      0
     }"""
   }
 }
